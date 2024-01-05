@@ -10,7 +10,11 @@ namespace TestProject_AdrianDorey
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World");
 
+            Console.WriteLine();
+            Console.WriteLine("Press anykey to exit");
+            Console.ReadKey(true);
         }
     }
 }
